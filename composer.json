@@ -1,0 +1,19 @@
+{
+    "name": "pras/falsifying-uuid",
+    "description": "A caesar chiper for falsifying the uuid",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasetyo Adi Santoso",
+            "email": "prasetyoadisantoso@gmail.com"
+        }
+    ],
+
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pras\\Falsifying\\": "src/"
+        }
+    }
+}
