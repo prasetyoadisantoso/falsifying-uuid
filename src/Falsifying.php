@@ -31,9 +31,8 @@ class Falsifying
         return chr(fmod(((ord($ch) - $key) - $offset), 26) + $offset);
     }
 
-    public static function falsify($input)
+    public static function falsify($input, $key)
     {
-        $key = 5;
         $output = "";
         $inputArr = str_split($input);
         $item = new Falsifying();
@@ -43,9 +42,8 @@ class Falsifying
     }
 
 
-    public static function truthy($input)
+    public static function truthy($input, $key)
     {
-        $key = 5;
         $output = "";
         $inputArr = str_split($input);
         $item = new Falsifying();
